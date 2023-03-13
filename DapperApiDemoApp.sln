@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperApiDemo", "DapperApiDemo\DapperApiDemo.csproj", "{DD73EBD3-E2B9-4864-8519-EA3505AB7111}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDB", "UserDB\UserDB.sqlproj", "{432CB398-BA8F-48DD-82B8-F226B11ADA08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{DD73EBD3-E2B9-4864-8519-EA3505AB7111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD73EBD3-E2B9-4864-8519-EA3505AB7111}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD73EBD3-E2B9-4864-8519-EA3505AB7111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432CB398-BA8F-48DD-82B8-F226B11ADA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432CB398-BA8F-48DD-82B8-F226B11ADA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432CB398-BA8F-48DD-82B8-F226B11ADA08}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{432CB398-BA8F-48DD-82B8-F226B11ADA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432CB398-BA8F-48DD-82B8-F226B11ADA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432CB398-BA8F-48DD-82B8-F226B11ADA08}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
