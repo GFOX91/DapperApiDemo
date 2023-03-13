@@ -63,5 +63,7 @@
   <ItemGroup>
     <Build Include="dbo\Tables\User.sql" />
     <Build Include="dbo\StoredProcedures\spUser_GetAll.sql" />
+    <Build Include="dbo\StoredProcedures\spUser_Get.sql" />
+    <Build Include="dbo\StoredProcedures\spUser_Delete.sql" />
   </ItemGroup>
 </Project>
