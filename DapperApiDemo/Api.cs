@@ -9,7 +9,7 @@ public static class Api
         app.MapGet("/Users/{id}", GetUser);
         app.MapPost("/Users", InsertUser);
         app.MapPut("/Users", UpdateUser);
-        app.MapDelete("/User/{id}", DeleteUser);
+        app.MapDelete("/Users", DeleteUser);
     }
 
     private static async Task<IResult> GetUsers(IUserData data)
